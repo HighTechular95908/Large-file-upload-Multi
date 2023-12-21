@@ -2,7 +2,7 @@ const express = require('express');
 const multer = require('multer');
 const app = express();
 
-// Set up multer to handle file uploads
+// Set up multer to handle file uploads 35
 const storage = multer.diskStorage({
   destination: function (req, file, cb) {
     cb(null, './images');
